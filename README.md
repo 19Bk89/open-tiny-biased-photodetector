@@ -26,7 +26,7 @@ Connectors – provide the electrical interface for power and signal output.
 |  9  |   2  |      —     | M3 heat-set insert        | —                     | Ruthex                | —             | —        |
 |  10 |   1  |      —     | M4 heat-set insert        | —                     | Ruthex                | —             | —        |
 |  11 |   1  |      —     | Enclosure                 | —                     | 3D-Printing           | —             | —        |
-|  12 |   2  |      —     | Screw (DIN 912) M3 × 4 mm | —                     | —                     | —             | —        |
+|  12 |   2  |      —     | Screw M3 × 5 mm           | —                     | —                     | —             | —        |
 
 # Photodiode alternatives
 The following photodiodes can be used as alternatives:
