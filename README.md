@@ -30,9 +30,11 @@ Connectors – provide the electrical interface for power and signal output.
 
 # Photodiode alternatives
 The following photodiodes can be used as alternatives:
+
 -Hamamatsu S5971
 -Hamamatsu S5972
 -Hamamatsu S5973
+
 The PCB footprint is compatible with all three variants
 
 # Development status
