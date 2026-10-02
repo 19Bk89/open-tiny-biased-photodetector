@@ -13,10 +13,8 @@ Features
 Compact design
 Biased photodiode operation
 Custom-designed PCB
-Analog photodiode amplifier
 3D-printed enclosure
 Open hardware design
-Replaceable/readily available components
 PCB manufacturing files included
 3D-printable enclosure
 Designed for laboratory, measurement and experimental applications
