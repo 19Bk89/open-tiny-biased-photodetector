@@ -36,6 +36,11 @@ The following photodiodes can be used as alternatives:
 The PCB footprint is compatible with all three variants
 
 # Development status
-The current PCB revision is an updated version of the design, but it has not yet been experimentally tested.
+The current PCB revision is an updated version of the design and has not yet been experimentally tested.
+
+<div align="center">
+  <img src="images/pcb-revision-2026-10-03-untested.png" width="500">
+</div>
+
 The released files should therefore be considered a development revision until the updated PCB has been assembled and verified.
 The previous tested design remains the reference for the currently verified hardware.
