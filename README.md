@@ -27,3 +27,13 @@ Custom-designed PCB – contains the photodiode, and analog signal-conditioning 
 Connectors – provide the electrical interface for power and signal output.
 
 The photodiode is operated with a reverse bias to improve its performance for high-speed optical detection.
+
+### PCB
+
+<p align="center">
+  <img src="images/3D_PCB_front_2026-10-02.png" alt="3D render of the PCB front" width="500">
+</p>
+
+<p align="center">
+  <img src="images/3D_PCB_back_2026-10-02.png" alt="3D render of the PCB back" width="500">
+</p>
