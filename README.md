@@ -45,4 +45,30 @@ The previous tested design remains the reference for the currently verified hard
   <img src="images/pcb-revision-2026-10-03-untested.png" width="500">
 </div>
 
+# Operation
+## Bias Supply
+The photodiode is operated in reverse-bias mode.
+The detector is intended to be operated from a **9 V DC supply**.
+Always observe the correct supply polarity and do not exceed the specified supply voltage.
 
+## Output Termination
+For high-speed measurements, a **50 Ω termination is required**.
+The recommended measurement setup is: **Photodetector → 50 Ω coaxial cable → 50 Ω oscilloscope input / 50 Ω terminator**
+
+The 50 Ω termination provides impedance matching and minimizes reflections and ringing in the measurement setup.
+
+When using a high-impedance input such as a 1 MΩ oscilloscope input, the output voltage will be higher, but the electrical bandwidth and transient response will differ from the 50 Ω configuration.
+
+For the intended high-speed operation, use a **50 Ω coaxial cable and a 50 Ω terminated measurement input**.
+
+## Measurement Considerations
+* Use a 50 Ω coaxial cable for high-speed measurements.
+* Use a 50 Ω termination at the receiving end.
+* Keep the signal cable as short as practical when high bandwidth is required.
+* A high-impedance measurement input can be used for observing low-frequency or DC signals, but it should not be considered equivalent to the 50 Ω high-speed configuration.
+* The photodiode is operated under reverse bias. Do not apply forward bias to the photodiode.
+* The photodiode and PCB are ESD-sensitive. Take appropriate ESD precautions when assembling or handling the detector.
+
+## Optical Safety
+The detector itself does not generate optical radiation. However, it may be used with lasers or other potentially hazardous light sources.
+Follow appropriate laser and optical safety procedures when operating the detector with hazardous optical sources.
