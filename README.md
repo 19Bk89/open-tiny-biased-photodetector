@@ -1,4 +1,4 @@
-# open-tiny-biased-photodetector
+# open-tiny-simple-biased-photodetector
 A compact open-source biased photodetector with a custom PCB and 3D-printed enclosure.
 The photodiode is operated with a reverse bias to improve its performance for high-speed optical detection.
 The goal of this project is to provide a small, affordable and reproducible photodetector that can be built, modified and improved by others.
