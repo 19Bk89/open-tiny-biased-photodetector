@@ -10,7 +10,7 @@ Custom-designed PCB – contains the photodiode, and analog signal-conditioning 
 3D-printed enclosure – provides mechanical protection and houses the PCB.
 Connectors – provide the electrical interface for power and signal output.
 
-
+<div align="center"> <img src="images/img-open-tiny-biased-photodetector.png"> </div>
 
 # Bill of Materials
 | No. | Qty. | Designator | Value                     | Footprint             | Manufacturer Part     | Supplier Part | Supplier |
