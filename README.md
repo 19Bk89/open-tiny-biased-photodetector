@@ -72,3 +72,17 @@ For the intended high-speed operation, use a **50 Ω coaxial cable and a 50 Ω t
 ## Optical Safety
 The detector itself does not generate optical radiation. However, it may be used with lasers or other potentially hazardous light sources.
 Follow appropriate laser and optical safety procedures when operating the detector with hazardous optical sources.
+
+# Performance
+The current PCB revision has not yet been experimentally characterized.
+Therefore, no verified performance specifications are currently provided for this revision, including:
+
+- bandwidth
+- rise time
+- fall time
+- noise
+- responsivity
+- maximum optical input power
+- maximum output voltage
+
+These values will be added after the PCB has been experimentally tested.
