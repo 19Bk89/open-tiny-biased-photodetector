@@ -1,24 +1,8 @@
 # open-tiny-biased-photodetector
 A compact open-source biased photodetector with a custom PCB and 3D-printed enclosure.
-
-Overview
-
-The Open Tiny Biased Photodetector is a compact, open-source photodetector designed for detecting modulated and continuous optical signals.
-The project integrates a photodiode and its analog signal-conditioning electronics on a compact custom-designed PCB, housed in a 3D-printed enclosure.
-
+The photodiode is operated with a reverse bias to improve its performance for high-speed optical detection.
 The goal of this project is to provide a small, affordable and reproducible photodetector that can be built, modified and improved by others.
 The design is an independent project and is not affiliated with, endorsed by, or a copy of any commercial photodetector.
-
-Features
-Compact design
-Biased photodiode operation
-Custom-designed PCB
-3D-printed enclosure
-Open hardware design
-PCB manufacturing files included
-3D-printable enclosure
-Designed for laboratory, measurement and experimental applications
-Hardware
 
 The detector consists of three main parts:
 
@@ -26,4 +10,27 @@ Custom-designed PCB – contains the photodiode, and analog signal-conditioning 
 3D-printed enclosure – provides mechanical protection and houses the PCB.
 Connectors – provide the electrical interface for power and signal output.
 
-The photodiode is operated with a reverse bias to improve its performance for high-speed optical detection.
+
+
+# Bill of Materials
+| No. | Qty. | Designator | Value                     | Footprint             | Manufacturer Part     | Supplier Part | Supplier |
+| :-: | :--: | :--------: | :------------------------ | :-------------------- | :-------------------- | :------------ | :------- |
+|  1  |   1  |     C1     | 100 nF                    | 0603                  | —                     | -             | -        |
+|  2  |   1  |     R1     | 1 kΩ                      | 0603                  | —                     | -             | -        |
+|  3  |   1  |     U1     | Photodiode                | TO-18-3               | S5971 / S5972 / S5973 | -             | -        |
+|  4  |   1  |     J1     | BNC female, bulkhead      | —                     | —                     | -             | -        |
+|  5  |   1  |     J2     | 4 mm banana socket, red   | —                     | RS PRO 208-0246       | 208-0246      | RS       |
+|  6  |   1  |     J3     | 4 mm banana socket, black | —                     | RS PRO 208-0245       | 208-0245      | RS       |
+|  7  |   2  |      —     | Wire, red                 | —                     | —                     | —             | —        |
+|  8  |   2  |      —     | Wire, black               | —                     | —                     | —             | —        |
+|  9  |   2  |      —     | M3 heat-set insert        | —                     | Ruthex                | —             | —        |
+|  10 |   1  |      —     | M4 heat-set insert        | —                     | Ruthex                | —             | —        |
+|  11 |   1  |      —     | Enclosure                 | —                     | 3D-Printing           | —             | —        |
+|  12 |   2  |      —     | Screw (DIN 912) M3 × 4 mm | —                     | —                     | —             | —        |
+
+# Photodiode alternatives
+The following photodiodes can be used as alternatives:
+-Hamamatsu S5971
+-Hamamatsu S5972
+-Hamamatsu S5973
+The PCB footprint is compatible with all three variants
