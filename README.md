@@ -28,13 +28,35 @@ Connectors – provide the electrical interface for power and signal output.
 |  11 |   1  |      —     | Enclosure                 | —                     | 3D-Printing           | —             | —        |
 |  12 |   2  |      —     | Screw M3 × 5 mm           | —                     | —                     | —             | —        |
 
-# Photodiode alternatives
-The following photodiodes can be used as alternatives:
-- Hamamatsu S5971
-- Hamamatsu S5972
-- Hamamatsu S5973
+# Estimated Material Cost
 
-The PCB footprint is compatible with all three variants
+The following prices are estimated material costs for a single detector in small quantities.
+
+| Component                 | Qty. | Estimated unit price | Estimated total |
+| :------------------------ | :--: | -------------------: | --------------: |
+| C1, 100 nF, 0603          |   1  |               0.03 € |          0.03 € |
+| R1, 1 kΩ, 0603            |   1  |               0.03 € |          0.03 € |
+| BNC female, bulkhead      |   1  |               2.50 € |          2.50 € |
+| 4 mm banana socket, red   |   1  |               1.50 € |          1.50 € |
+| 4 mm banana socket, black |   1  |               1.50 € |          1.50 € |
+| Red wire                  |   2  |               0.20 € |          0.40 € |
+| Black wire                |   2  |               0.20 € |          0.40 € |
+| M3 heat-set insert        |   2  |               0.20 € |          0.40 € |
+| M4 heat-set insert        |   1  |               0.25 € |          0.25 € |
+| Enclosure, 3D-printed     |   1  |               1.00 € |          1.00 € |
+| M3 × 5 mm screw           |   2  |               0.10 € |          0.20 € |
+| **Remaining components**  |      |                      |      **8.21 €** |
+
+## Photodiode Options
+The total material cost depends mainly on the selected photodiode.
+| Photodiode      | Price incl. VAT | Estimated total material cost* |
+| :-------------- | --------------: | -----------------------------: |
+| Hamamatsu S5971 |         10.12 € |                    **18.33 €** |
+| Hamamatsu S5972 |         13.77 € |                    **21.98 €** |
+| Hamamatsu S5973 |         27.85 € |                    **36.06 €** |
+* Estimated material cost excluding PCB manufacturing and shipping.
+Prices are approximate and may vary depending on supplier, order quantity and availability.
+PCB manufacturing costs and shipping costs are not included.
 
 # Development status
 The current PCB revision is an updated version of the design and has not yet been experimentally tested.
