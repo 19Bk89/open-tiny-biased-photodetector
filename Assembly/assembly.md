@@ -20,6 +20,8 @@
   </tr>
 </table>
 
+### Remove Excess Filament
+
 ## PCB
 ### Ordering
 Use the provided Gerber files to order the PCB.
