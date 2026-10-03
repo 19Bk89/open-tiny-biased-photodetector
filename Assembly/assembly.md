@@ -6,14 +6,14 @@
   <img src="../images/img_assembly-01-enclosure.png" height="100">
 </div>
 
-### Install Heat-Set Inserts
-<table style="border: none;">
-  <tr style="border: none;">
-    <td style="border: none;" align="left">
+### Install heated inserts
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td style="border: none; padding: 0 20px 0 0;">
       <img src="../images/img_assembly-02-enclosure.png" height="100"><br>
       <b>Back</b>
     </td>
-    <td style="border: none;" align="left">
+    <td style="border: none; padding: 0;">
       <img src="../images/img_assembly-03-enclosure.png" height="100"><br>
       <b>Bottom</b>
     </td>
